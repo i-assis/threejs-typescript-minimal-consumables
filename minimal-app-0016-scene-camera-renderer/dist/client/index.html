@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Three.js TypeScript Minimal App</title>
+    <meta name="author" content="Yeah Right">
+    
+    <style>
+        body {
+            overflow: hidden;
+            font-family: monospace;
+            font-size: 12px;
+            color: white
+        }
+
+        #perspective {
+            position: absolute;
+            top: 10px;
+            left: 90px;
+            pointer-events: none;
+        }
+
+        #orthoTop {
+            position: absolute;
+            top: 10px;
+            left: 320px
+        }
+
+        #orthoFront {
+            position: absolute;
+            top: 257px;
+            left: 310px
+        }
+
+        #orthoRight {
+            position: absolute;
+            top: 257px;
+            left: 70px
+        }
+
+        #c1 {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 243px;
+            height: 243px;
+        }
+
+        #c2 {
+            position: absolute;
+            top: 4px;
+            left: 251px;
+            width: 243px;
+            height: 243px;
+        }
+
+        #c3 {
+            position: absolute;
+            top: 251px;
+            left: 4px;
+            width: 243px;
+            height: 243px;
+        }
+
+        #c4 {
+            position: absolute;
+            top: 251px;
+            left: 251px;
+            width: 243px;
+            height: 243px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="c1" class="c"></canvas>
+    <canvas id="c2" class="c"></canvas>
+    <canvas id="c3" class="c"></canvas>
+    <canvas id="c4" class="c"></canvas>
+    <span id="perspective">Perspective</span>
+    <span id="orthoTop">Orthographic Top</span>
+    <span id="orthoFront">Orthographic Front</span>
+    <span id="orthoRight">Orthographic Right</span>
+    
+    <script type="module" src="client.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "outDir": "../../dist/server",
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "cannon": ["../typings/cannon"]
+        },
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
